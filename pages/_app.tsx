@@ -82,7 +82,7 @@ export default function App(
             <APIProvider>
               <PopupProvider>
                 <JWTProvider>
-                  {!Component?.requireAuth ? (
+                  {Component?.requireAuth ? (
                     <AuthGuard>
                       <Component {...pageProps} />
                     </AuthGuard>
