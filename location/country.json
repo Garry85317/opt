@@ -1,0 +1,434 @@
+[
+  { "id": 1, "name": { "en": "Afghanistan", "zh-hant": "阿富汗" }, "countrycode": "AF" },
+  { "id": 3, "name": { "en": "Albania", "zh-hant": "阿爾巴尼亞" }, "countrycode": "AL" },
+  { "id": 5, "name": { "en": "American Samoa", "zh-hant": "美屬薩摩亞" }, "countrycode": "AS" },
+  { "id": 7, "name": { "en": "Angola", "zh-hant": "安哥拉" }, "countrycode": "AO" },
+  { "id": 9, "name": { "en": "Antarctica", "zh-hant": "南極洲" }, "countrycode": "AQ" },
+  { "id": 11, "name": { "en": "Argentina", "zh-hant": "阿根廷" }, "countrycode": "AR" },
+  { "id": 13, "name": { "en": "Aruba", "zh-hant": "阿魯巴" }, "countrycode": "AW" },
+  { "id": 15, "name": { "en": "Austria", "zh-hant": "奧地利" }, "countrycode": "AT" },
+  { "id": 17, "name": { "en": "Bahamas", "zh-hant": "巴哈馬" }, "countrycode": "BS" },
+  { "id": 19, "name": { "en": "Bangladesh", "zh-hant": "孟加拉國" }, "countrycode": "BD" },
+  { "id": 21, "name": { "en": "Belarus", "zh-hant": "白俄羅斯" }, "countrycode": "BY" },
+  { "id": 23, "name": { "en": "Belize", "zh-hant": "伯利茲" }, "countrycode": "BZ" },
+  { "id": 25, "name": { "en": "Bermuda", "zh-hant": "百慕大" }, "countrycode": "BM" },
+  { "id": 27, "name": { "en": "Bolivia", "zh-hant": "玻利維亞" }, "countrycode": "BO" },
+  {
+    "id": 29,
+    "name": { "en": "Bosnia and Herzegovina", "zh-hant": "波斯尼亞和黑塞哥維那" },
+    "countrycode": "BA"
+  },
+  { "id": 31, "name": { "en": "Bouvet Island", "zh-hant": "布韋島" }, "countrycode": "BV" },
+  {
+    "id": 33,
+    "name": { "en": "British Indian Ocean Territory", "zh-hant": "英屬印度洋領地" },
+    "countrycode": "IO"
+  },
+  { "id": 35, "name": { "en": "Bulgaria", "zh-hant": "保加利亞" }, "countrycode": "BG" },
+  { "id": 37, "name": { "en": "Burundi", "zh-hant": "布隆迪" }, "countrycode": "BI" },
+  { "id": 39, "name": { "en": "Cameroon", "zh-hant": "喀麥隆" }, "countrycode": "CM" },
+  { "id": 41, "name": { "en": "Cape Verde", "zh-hant": "佛得角" }, "countrycode": "CV" },
+  {
+    "id": 43,
+    "name": { "en": "Central African Republic", "zh-hant": "中非共和國" },
+    "countrycode": "CF"
+  },
+  { "id": 45, "name": { "en": "Chile", "zh-hant": "智利" }, "countrycode": "CL" },
+  { "id": 47, "name": { "en": "Christmas Island", "zh-hant": "聖誕島" }, "countrycode": "CX" },
+  { "id": 49, "name": { "en": "Colombia", "zh-hant": "哥倫比亞" }, "countrycode": "CO" },
+  {
+    "id": 51,
+    "name": { "en": "Congo, Republic of the (Brazzaville)", "zh-hant": "剛果共和國" },
+    "countrycode": "CG"
+  },
+  { "id": 53, "name": { "en": "Cook Islands", "zh-hant": "庫克群島" }, "countrycode": "CK" },
+  {
+    "id": 55,
+    "name": { "en": "Côte d'Ivoire, Republic of", "zh-hant": "科特迪瓦" },
+    "countrycode": "CI"
+  },
+  { "id": 57, "name": { "en": "Cuba", "zh-hant": "古巴" }, "countrycode": "CU" },
+  { "id": 59, "name": { "en": "Cyprus", "zh-hant": "賽普勒斯" }, "countrycode": "CY" },
+  { "id": 61, "name": { "en": "Denmark", "zh-hant": "丹麥" }, "countrycode": "DK" },
+  { "id": 63, "name": { "en": "Dominica", "zh-hant": "多米尼克" }, "countrycode": "DM" },
+  { "id": 65, "name": { "en": "Ecuador", "zh-hant": "厄瓜多爾" }, "countrycode": "EC" },
+  { "id": 67, "name": { "en": "El Salvador", "zh-hant": "薩爾瓦多" }, "countrycode": "SV" },
+  { "id": 69, "name": { "en": "Eritrea", "zh-hant": "厄立特里亞" }, "countrycode": "ER" },
+  { "id": 71, "name": { "en": "Ethiopia", "zh-hant": "埃塞俄比亞" }, "countrycode": "ET" },
+  { "id": 73, "name": { "en": "Faroe Islands", "zh-hant": "法羅群島" }, "countrycode": "FO" },
+  { "id": 75, "name": { "en": "Finland", "zh-hant": "芬蘭" }, "countrycode": "FI" },
+  { "id": 77, "name": { "en": "French Guiana", "zh-hant": "法屬圭亞那" }, "countrycode": "GF" },
+  {
+    "id": 79,
+    "name": { "en": "French Southern and Antarctic Lands", "zh-hant": "法屬南部和南極領地" },
+    "countrycode": "TF"
+  },
+  { "id": 81, "name": { "en": "Gambia, The", "zh-hant": "甘比亞" }, "countrycode": "GM" },
+  { "id": 83, "name": { "en": "Germany", "zh-hant": "德國" }, "countrycode": "DE" },
+  { "id": 85, "name": { "en": "Gibraltar", "zh-hant": "直布羅陀" }, "countrycode": "GI" },
+  { "id": 87, "name": { "en": "Greenland", "zh-hant": "格陵蘭" }, "countrycode": "GL" },
+  { "id": 89, "name": { "en": "Guadeloupe", "zh-hant": "瓜德羅普" }, "countrycode": "GP" },
+  { "id": 91, "name": { "en": "Guatemala", "zh-hant": "危地馬拉" }, "countrycode": "GT" },
+  { "id": 93, "name": { "en": "Guinea", "zh-hant": "幾內亞" }, "countrycode": "GN" },
+  { "id": 95, "name": { "en": "Guyana", "zh-hant": "圭亞那" }, "countrycode": "GY" },
+  {
+    "id": 97,
+    "name": { "en": "Heard Island and McDonald Islands", "zh-hant": "赫德島和麥克唐納群島" },
+    "countrycode": "HM"
+  },
+  { "id": 99, "name": { "en": "Honduras", "zh-hant": "洪都拉斯" }, "countrycode": "HN" },
+  { "id": 101, "name": { "en": "Hungary", "zh-hant": "匈牙利" }, "countrycode": "HU" },
+  { "id": 103, "name": { "en": "India", "zh-hant": "印度" }, "countrycode": "IN" },
+  {
+    "id": 105,
+    "name": { "en": "Iran, Islamic Republic of", "zh-hant": "伊朗" },
+    "countrycode": "IR"
+  },
+  { "id": 107, "name": { "en": "Ireland", "zh-hant": "愛爾蘭" }, "countrycode": "IE" },
+  { "id": 109, "name": { "en": "Israel", "zh-hant": "以色列" }, "countrycode": "IL" },
+  { "id": 111, "name": { "en": "Jamaica", "zh-hant": "牙買加" }, "countrycode": "JM" },
+  { "id": 113, "name": { "en": "Jersey", "zh-hant": "澤西島" }, "countrycode": "JE" },
+  { "id": 115, "name": { "en": "Kazakhstan", "zh-hant": "哈薩克斯坦" }, "countrycode": "KZ" },
+  { "id": 117, "name": { "en": "Kiribati", "zh-hant": "基里巴斯" }, "countrycode": "KI" },
+  { "id": 119, "name": { "en": "Korea, Republic of", "zh-hant": "大韓民國" }, "countrycode": "KR" },
+  { "id": 121, "name": { "en": "Kyrgyzstan", "zh-hant": "吉爾吉斯斯坦" }, "countrycode": "KG" },
+  { "id": 123, "name": { "en": "Latvia", "zh-hant": "拉脫維亞" }, "countrycode": "LV" },
+  { "id": 125, "name": { "en": "Lesotho", "zh-hant": "萊索托" }, "countrycode": "LS" },
+  { "id": 127, "name": { "en": "Libya", "zh-hant": "利比亞" }, "countrycode": "LY" },
+  { "id": 129, "name": { "en": "Lithuania", "zh-hant": "立陶宛" }, "countrycode": "LT" },
+  { "id": 131, "name": { "en": "Macao", "zh-hant": "澳門" }, "countrycode": "MO" },
+  { "id": 133, "name": { "en": "Madagascar", "zh-hant": "馬達加斯加" }, "countrycode": "MG" },
+  { "id": 135, "name": { "en": "Malaysia", "zh-hant": "馬來西亞" }, "countrycode": "MY" },
+  { "id": 152, "name": { "en": "Mozambique", "zh-hant": "莫桑比克" }, "countrycode": "MZ" },
+  { "id": 154, "name": { "en": "Namibia", "zh-hant": "納米比亞" }, "countrycode": "NA" },
+  { "id": 156, "name": { "en": "Nepal", "zh-hant": "尼泊爾" }, "countrycode": "NP" },
+  { "id": 158, "name": { "en": "New Caledonia", "zh-hant": "新喀里多尼亞" }, "countrycode": "NC" },
+  { "id": 160, "name": { "en": "Nicaragua", "zh-hant": "尼加拉瓜" }, "countrycode": "NI" },
+  { "id": 162, "name": { "en": "Nigeria", "zh-hant": "尼日利亞" }, "countrycode": "NG" },
+  { "id": 164, "name": { "en": "Norfolk Island", "zh-hant": "諾福克島" }, "countrycode": "NF" },
+  { "id": 166, "name": { "en": "Norway", "zh-hant": "挪威" }, "countrycode": "NO" },
+  { "id": 168, "name": { "en": "Pakistan", "zh-hant": "巴基斯坦" }, "countrycode": "PK" },
+  {
+    "id": 170,
+    "name": { "en": "Palestine, State of", "zh-hant": "巴勒斯坦國" },
+    "countrycode": "PS"
+  },
+  {
+    "id": 172,
+    "name": { "en": "Papua New Guinea", "zh-hant": "巴布亞新幾內亞" },
+    "countrycode": "PG"
+  },
+  { "id": 174, "name": { "en": "Peru", "zh-hant": "秘魯" }, "countrycode": "PE" },
+  { "id": 176, "name": { "en": "Pitcairn", "zh-hant": "皮特凱恩" }, "countrycode": "PN" },
+  { "id": 178, "name": { "en": "Portugal", "zh-hant": "葡萄牙" }, "countrycode": "PT" },
+  { "id": 180, "name": { "en": "Qatar", "zh-hant": "卡塔爾" }, "countrycode": "QA" },
+  { "id": 182, "name": { "en": "Romania", "zh-hant": "羅馬尼亞" }, "countrycode": "RO" },
+  { "id": 184, "name": { "en": "Rwanda", "zh-hant": "盧旺達" }, "countrycode": "RW" },
+  {
+    "id": 186,
+    "name": {
+      "en": "Saint Helena, Ascension and Tristan da Cunha",
+      "zh-hant": "聖赫勒拿、阿森松和特里斯坦達庫尼亞"
+    },
+    "countrycode": "SH"
+  },
+  { "id": 188, "name": { "en": "Saint Lucia", "zh-hant": "聖盧西亞" }, "countrycode": "LC" },
+  {
+    "id": 190,
+    "name": { "en": "Saint Pierre and Miquelon", "zh-hant": "聖皮埃爾和密克隆" },
+    "countrycode": "PM"
+  },
+  { "id": 192, "name": { "en": "Samoa", "zh-hant": "薩摩亞" }, "countrycode": "WS" },
+  {
+    "id": 194,
+    "name": { "en": "Sao Tome and Principe", "zh-hant": "聖多美和普林西比" },
+    "countrycode": "ST"
+  },
+  { "id": 196, "name": { "en": "Senegal", "zh-hant": "塞內加爾" }, "countrycode": "SN" },
+  { "id": 198, "name": { "en": "Seychelles", "zh-hant": "塞舌爾" }, "countrycode": "SC" },
+  { "id": 200, "name": { "en": "Singapore", "zh-hant": "新加坡" }, "countrycode": "SG" },
+  { "id": 202, "name": { "en": "Slovakia", "zh-hant": "斯洛伐克" }, "countrycode": "SK" },
+  { "id": 204, "name": { "en": "Solomon Islands", "zh-hant": "所羅門群島" }, "countrycode": "SB" },
+  { "id": 206, "name": { "en": "South Africa", "zh-hant": "南非" }, "countrycode": "ZA" },
+  { "id": 208, "name": { "en": "South Sudan", "zh-hant": "南蘇丹" }, "countrycode": "SS" },
+  { "id": 210, "name": { "en": "Sri Lanka", "zh-hant": "斯里蘭卡" }, "countrycode": "LK" },
+  { "id": 212, "name": { "en": "Suriname", "zh-hant": "蘇里南" }, "countrycode": "SR" },
+  { "id": 214, "name": { "en": "Sweden", "zh-hant": "瑞典" }, "countrycode": "SE" },
+  { "id": 216, "name": { "en": "Syrian Arab Republic", "zh-hant": "敘利亞" }, "countrycode": "SY" },
+  { "id": 218, "name": { "en": "Tajikistan", "zh-hant": "塔吉克斯坦" }, "countrycode": "TJ" },
+  { "id": 220, "name": { "en": "Thailand", "zh-hant": "泰國" }, "countrycode": "TH" },
+  { "id": 222, "name": { "en": "Togo", "zh-hant": "多哥" }, "countrycode": "TG" },
+  { "id": 224, "name": { "en": "Tonga", "zh-hant": "湯加" }, "countrycode": "TO" },
+  { "id": 226, "name": { "en": "Tunisia", "zh-hant": "突尼斯" }, "countrycode": "TN" },
+  { "id": 228, "name": { "en": "Turkmenistan", "zh-hant": "土庫曼斯坦" }, "countrycode": "TM" },
+  { "id": 230, "name": { "en": "Tuvalu", "zh-hant": "圖瓦盧" }, "countrycode": "TV" },
+  { "id": 232, "name": { "en": "Ukraine", "zh-hant": "烏克蘭" }, "countrycode": "UA" },
+  { "id": 234, "name": { "en": "United Kingdom", "zh-hant": "英國" }, "countrycode": "GB" },
+  {
+    "id": 236,
+    "name": { "en": "United States Minor Outlying Islands", "zh-hant": "美國本土外小島嶼" },
+    "countrycode": "UM"
+  },
+  { "id": 238, "name": { "en": "Uzbekistan", "zh-hant": "烏茲別克斯坦" }, "countrycode": "UZ" },
+  {
+    "id": 240,
+    "name": { "en": "Venezuela, Bolivarian Republic of", "zh-hant": "委內瑞拉" },
+    "countrycode": "VE"
+  },
+  {
+    "id": 242,
+    "name": { "en": "Virgin Islands, British", "zh-hant": "英屬維爾京群島" },
+    "countrycode": "VG"
+  },
+  {
+    "id": 244,
+    "name": { "en": "Wallis and Futuna", "zh-hant": "瓦利斯和富圖納" },
+    "countrycode": "WF"
+  },
+  { "id": 246, "name": { "en": "Yemen", "zh-hant": "葉門" }, "countrycode": "YE" },
+  { "id": 248, "name": { "en": "Zimbabwe", "zh-hant": "津巴布韋" }, "countrycode": "ZW" },
+  {
+    "id": 291,
+    "name": { "en": "Antigua and Barbuda", "zh-hant": "安提瓜和巴布達" },
+    "countrycode": "AG"
+  },
+  { "id": 300, "name": { "en": "Åland Islands", "zh-hant": "奧蘭群島" }, "countrycode": "AX" },
+  { "id": 302, "name": { "en": "Armenia", "zh-hant": "亞美尼亞" }, "countrycode": "AM" },
+  { "id": 304, "name": { "en": "Anguilla", "zh-hant": "安圭拉" }, "countrycode": "AI" },
+  { "id": 312, "name": { "en": "Algeria", "zh-hant": "阿爾及利亞" }, "countrycode": "DZ" },
+  { "id": 322, "name": { "en": "Andorra", "zh-hant": "安道爾" }, "countrycode": "AD" },
+  { "id": 367, "name": { "en": "Barbados", "zh-hant": "巴巴多斯" }, "countrycode": "BB" },
+  { "id": 400, "name": { "en": "Belgium", "zh-hant": "比利時" }, "countrycode": "BE" },
+  { "id": 406, "name": { "en": "Australia", "zh-hant": "澳大利亞" }, "countrycode": "AU" },
+  { "id": 410, "name": { "en": "Bahrain", "zh-hant": "巴林" }, "countrycode": "BH" },
+  { "id": 421, "name": { "en": "Azerbaijan", "zh-hant": "阿塞拜疆" }, "countrycode": "AZ" },
+  {
+    "id": 471,
+    "name": { "en": "Bonaire, Sint Eustatius and Saba", "zh-hant": "博奈爾、聖尤斯特歐斯和沙巴" },
+    "countrycode": "BQ"
+  },
+  { "id": 473, "name": { "en": "Benin", "zh-hant": "貝寧" }, "countrycode": "BJ" },
+  { "id": 485, "name": { "en": "Botswana", "zh-hant": "博茨瓦納" }, "countrycode": "BW" },
+  { "id": 486, "name": { "en": "Bhutan", "zh-hant": "不丹" }, "countrycode": "BT" },
+  { "id": 498, "name": { "en": "Brazil", "zh-hant": "巴西" }, "countrycode": "BR" },
+  {
+    "id": 535,
+    "name": { "en": "Brunei Darussalam", "zh-hant": "文萊達魯薩蘭國" },
+    "countrycode": "BN"
+  },
+  { "id": 546, "name": { "en": "Burkina Faso", "zh-hant": "布基納法索" }, "countrycode": "BF" },
+  { "id": 555, "name": { "en": "Canada", "zh-hant": "加拿大" }, "countrycode": "CA" },
+  { "id": 559, "name": { "en": "Cambodia", "zh-hant": "柬埔寨" }, "countrycode": "KH" },
+  { "id": 566, "name": { "en": "Chad", "zh-hant": "乍得" }, "countrycode": "TD" },
+  { "id": 570, "name": { "en": "Cayman Islands", "zh-hant": "開曼群島" }, "countrycode": "KY" },
+  { "id": 613, "name": { "en": "China", "zh-hant": "中國" }, "countrycode": "CN" },
+  {
+    "id": 621,
+    "name": {
+      "en": "Congo, the Democratic Republic of the (Kinshasa)",
+      "zh-hant": "剛果民主共和國（金夏沙）"
+    },
+    "countrycode": "CD"
+  },
+  { "id": 629, "name": { "en": "Comoros", "zh-hant": "科摩羅" }, "countrycode": "KM" },
+  {
+    "id": 630,
+    "name": { "en": "Cocos (Keeling) Islands", "zh-hant": "科科斯（基林）群島" },
+    "countrycode": "CC"
+  },
+  { "id": 634, "name": { "en": "Costa Rica", "zh-hant": "哥斯達黎加" }, "countrycode": "CR" },
+  { "id": 681, "name": { "en": "Djibouti", "zh-hant": "吉布提" }, "countrycode": "DJ" },
+  { "id": 685, "name": { "en": "Croatia", "zh-hant": "克羅地亞" }, "countrycode": "HR" },
+  {
+    "id": 690,
+    "name": { "en": "Dominican Republic", "zh-hant": "多米尼加共和國" },
+    "countrycode": "DO"
+  },
+  { "id": 701, "name": { "en": "Curaçao", "zh-hant": "庫拉索" }, "countrycode": "CW" },
+  { "id": 703, "name": { "en": "Czech Republic", "zh-hant": "捷克共和國" }, "countrycode": "CZ" },
+  { "id": 758, "name": { "en": "Egypt", "zh-hant": "埃及" }, "countrycode": "EG" },
+  { "id": 762, "name": { "en": "Fiji", "zh-hant": "斐濟" }, "countrycode": "FJ" },
+  {
+    "id": 766,
+    "name": { "en": "French Polynesia", "zh-hant": "法屬波利尼西亞" },
+    "countrycode": "PF"
+  },
+  { "id": 771, "name": { "en": "Estonia", "zh-hant": "愛沙尼亞" }, "countrycode": "EE" },
+  { "id": 772, "name": { "en": "France", "zh-hant": "法國" }, "countrycode": "FR" },
+  {
+    "id": 774,
+    "name": { "en": "Equatorial Guinea", "zh-hant": "赤道幾內亞" },
+    "countrycode": "GQ"
+  },
+  { "id": 775, "name": { "en": "Gabon", "zh-hant": "加蓬" }, "countrycode": "GA" },
+  {
+    "id": 782,
+    "name": {
+      "en": "Falkland Islands (Islas Malvinas)",
+      "zh-hant": "福克蘭群島（馬爾維納斯群島）"
+    },
+    "countrycode": "FK"
+  },
+  { "id": 806, "name": { "en": "Ghana", "zh-hant": "加納" }, "countrycode": "GH" },
+  { "id": 816, "name": { "en": "Greece", "zh-hant": "希臘" }, "countrycode": "GR" },
+  { "id": 821, "name": { "en": "Georgia", "zh-hant": "喬治亞" }, "countrycode": "GE" },
+  { "id": 896, "name": { "en": "Haiti", "zh-hant": "海地" }, "countrycode": "HT" },
+  { "id": 898, "name": { "en": "Guinea-Bissau", "zh-hant": "幾內亞比紹" }, "countrycode": "GW" },
+  {
+    "id": 904,
+    "name": { "en": "Holy See (Vatican City)", "zh-hant": "聖座（梵蒂岡）" },
+    "countrycode": "VA"
+  },
+  { "id": 910, "name": { "en": "Guam", "zh-hant": "關島" }, "countrycode": "GU" },
+  { "id": 915, "name": { "en": "Grenada", "zh-hant": "格林納達" }, "countrycode": "GD" },
+  { "id": 919, "name": { "en": "Hong Kong", "zh-hant": "香港" }, "countrycode": "HK" },
+  { "id": 922, "name": { "en": "Guernsey", "zh-hant": "根西島" }, "countrycode": "GG" },
+  { "id": 926, "name": { "en": "Iceland", "zh-hant": "冰島" }, "countrycode": "IS" },
+  { "id": 941, "name": { "en": "Indonesia", "zh-hant": "印尼" }, "countrycode": "ID" },
+  { "id": 954, "name": { "en": "Iraq", "zh-hant": "伊拉克" }, "countrycode": "IQ" },
+  { "id": 1033, "name": { "en": "Isle of Man", "zh-hant": "曼島" }, "countrycode": "IM" },
+  { "id": 1051, "name": { "en": "Italy", "zh-hant": "義大利" }, "countrycode": "IT" },
+  { "id": 1087, "name": { "en": "Japan", "zh-hant": "日本" }, "countrycode": "JP" },
+  { "id": 1096, "name": { "en": "Laos", "zh-hant": "老撾" }, "countrycode": "LA" },
+  { "id": 1102, "name": { "en": "Jordan", "zh-hant": "約旦" }, "countrycode": "JO" },
+  { "id": 1110, "name": { "en": "Lebanon", "zh-hant": "黎巴嫩" }, "countrycode": "LB" },
+  { "id": 1117, "name": { "en": "Kenya", "zh-hant": "肯亞" }, "countrycode": "KE" },
+  { "id": 1122, "name": { "en": "Liberia", "zh-hant": "賴比瑞亞" }, "countrycode": "LR" },
+  { "id": 1127, "name": { "en": "Liechtenstein", "zh-hant": "列支敦士登" }, "countrycode": "LI" },
+  {
+    "id": 1129,
+    "name": { "en": "Macedonia, Republic of", "zh-hant": "馬其頓共和國" },
+    "countrycode": "MK"
+  },
+  {
+    "id": 1132,
+    "name": { "en": "Korea, Democratic People's Republic of", "zh-hant": "朝鮮民主主義人民共和國" },
+    "countrycode": "KP"
+  },
+  { "id": 1141, "name": { "en": "Luxembourg", "zh-hant": "盧森堡" }, "countrycode": "LU" },
+  { "id": 1143, "name": { "en": "Malawi", "zh-hant": "馬拉威" }, "countrycode": "MW" },
+  { "id": 1146, "name": { "en": "Kuwait", "zh-hant": "科威特" }, "countrycode": "KW" },
+  { "id": 1156, "name": { "en": "Maldives", "zh-hant": "馬爾地夫" }, "countrycode": "MV" },
+  { "id": 1170, "name": { "en": "Malta", "zh-hant": "馬爾他" }, "countrycode": "MT" },
+  { "id": 1183, "name": { "en": "Martinique", "zh-hant": "馬丁尼克" }, "countrycode": "MQ" },
+  { "id": 1228, "name": { "en": "Mauritius", "zh-hant": "模里西斯" }, "countrycode": "MU" },
+  { "id": 1238, "name": { "en": "Mexico", "zh-hant": "墨西哥" }, "countrycode": "MX" },
+  { "id": 1242, "name": { "en": "Mongolia", "zh-hant": "蒙古" }, "countrycode": "MN" },
+  { "id": 1252, "name": { "en": "Moldova", "zh-hant": "摩爾多瓦" }, "countrycode": "MD" },
+  { "id": 1258, "name": { "en": "Montserrat", "zh-hant": "蒙特色拉特" }, "countrycode": "MS" },
+  {
+    "id": 1263,
+    "name": { "en": "Marshall Islands", "zh-hant": "馬紹爾群島" },
+    "countrycode": "MH"
+  },
+  { "id": 1266, "name": { "en": "Mali", "zh-hant": "馬里" }, "countrycode": "ML" },
+  { "id": 1274, "name": { "en": "Montenegro", "zh-hant": "蒙特內哥羅" }, "countrycode": "ME" },
+  { "id": 1276, "name": { "en": "Myanmar", "zh-hant": "緬甸" }, "countrycode": "MM" },
+  { "id": 1290, "name": { "en": "Nauru", "zh-hant": "諾魯" }, "countrycode": "NR" },
+  { "id": 1291, "name": { "en": "Morocco", "zh-hant": "摩洛哥" }, "countrycode": "MA" },
+  { "id": 1294, "name": { "en": "Mauritania", "zh-hant": "茅利塔尼亞" }, "countrycode": "MR" },
+  {
+    "id": 1303,
+    "name": { "en": "Micronesia, Federated States of", "zh-hant": "密克羅尼西亞聯邦" },
+    "countrycode": "FM"
+  },
+  { "id": 1308, "name": { "en": "Mayotte", "zh-hant": "馬約特" }, "countrycode": "YT" },
+  { "id": 1326, "name": { "en": "Monaco", "zh-hant": "摩納哥" }, "countrycode": "MC" },
+  { "id": 1400, "name": { "en": "New Zealand", "zh-hant": "紐西蘭" }, "countrycode": "NZ" },
+  { "id": 1404, "name": { "en": "Netherlands", "zh-hant": "荷蘭" }, "countrycode": "NL" },
+  { "id": 1413, "name": { "en": "Niger", "zh-hant": "尼日" }, "countrycode": "NE" },
+  { "id": 1430, "name": { "en": "Niue", "zh-hant": "紐埃" }, "countrycode": "NU" },
+  {
+    "id": 1460,
+    "name": { "en": "Northern Mariana Islands", "zh-hant": "北馬里亞納群島" },
+    "countrycode": "MP"
+  },
+  { "id": 1470, "name": { "en": "Puerto Rico", "zh-hant": "波多黎各" }, "countrycode": "PR" },
+  { "id": 1473, "name": { "en": "Oman", "zh-hant": "阿曼" }, "countrycode": "OM" },
+  {
+    "id": 1477,
+    "name": { "en": "Russian Federation", "zh-hant": "俄羅斯聯邦" },
+    "countrycode": "RU"
+  },
+  { "id": 1484, "name": { "en": "Palau", "zh-hant": "帛琉" }, "countrycode": "PW" },
+  { "id": 1487, "name": { "en": "Réunion", "zh-hant": "留尼汪" }, "countrycode": "RE" },
+  {
+    "id": 1491,
+    "name": { "en": "Saint Barthélemy", "zh-hant": "聖巴泰勒米" },
+    "countrycode": "BL"
+  },
+  { "id": 1499, "name": { "en": "Panama", "zh-hant": "巴拿馬" }, "countrycode": "PA" },
+  { "id": 1517, "name": { "en": "Paraguay", "zh-hant": "巴拉圭" }, "countrycode": "PY" },
+  { "id": 1520, "name": { "en": "Saint Martin", "zh-hant": "聖馬丁" }, "countrycode": "MF" },
+  { "id": 1526, "name": { "en": "Poland", "zh-hant": "波蘭" }, "countrycode": "PL" },
+  {
+    "id": 1529,
+    "name": { "en": "Saint Kitts and Nevis", "zh-hant": "聖基茨和尼維斯" },
+    "countrycode": "KN"
+  },
+  { "id": 1531, "name": { "en": "Philippines", "zh-hant": "菲律賓" }, "countrycode": "PH" },
+  {
+    "id": 1534,
+    "name": { "en": "Saint Vincent and the Grenadines", "zh-hant": "聖文森特和格林納丁斯" },
+    "countrycode": "VC"
+  },
+  { "id": 1585, "name": { "en": "Saudi Arabia", "zh-hant": "沙特阿拉伯" }, "countrycode": "SA" },
+  { "id": 1587, "name": { "en": "San Marino", "zh-hant": "聖馬力諾" }, "countrycode": "SM" },
+  { "id": 1590, "name": { "en": "Sierra Leone", "zh-hant": "塞拉利昂" }, "countrycode": "SL" },
+  { "id": 1601, "name": { "en": "Serbia", "zh-hant": "塞爾維亞" }, "countrycode": "RS" },
+  {
+    "id": 1604,
+    "name": { "en": "Sint Maarten (Dutch part)", "zh-hant": "荷屬聖馬丁" },
+    "countrycode": "SX"
+  },
+  { "id": 1670, "name": { "en": "Somalia", "zh-hant": "索馬里" }, "countrycode": "SO" },
+  {
+    "id": 1672,
+    "name": {
+      "en": "South Georgia and South Sandwich Islands",
+      "zh-hant": "南喬治亞島和南桑威奇群島"
+    },
+    "countrycode": "GS"
+  },
+  { "id": 1675, "name": { "en": "Slovenia", "zh-hant": "斯洛文尼亞" }, "countrycode": "SI" },
+  { "id": 1676, "name": { "en": "Spain", "zh-hant": "西班牙" }, "countrycode": "ES" },
+  { "id": 1678, "name": { "en": "Sudan", "zh-hant": "蘇丹" }, "countrycode": "SD" },
+  { "id": 1728, "name": { "en": "Swaziland", "zh-hant": "斯威士蘭" }, "countrycode": "SZ" },
+  { "id": 1740, "name": { "en": "Switzerland", "zh-hant": "瑞士" }, "countrycode": "CH" },
+  { "id": 1822, "name": { "en": "Taiwan", "zh-hant": "台灣" }, "countrycode": "TW" },
+  { "id": 1831, "name": { "en": "Timor-Leste", "zh-hant": "東帝汶" }, "countrycode": "TL" },
+  {
+    "id": 1838,
+    "name": { "en": "Tanzania, United Republic of", "zh-hant": "坦尚尼亞聯合共和國" },
+    "countrycode": "TZ"
+  },
+  { "id": 1870, "name": { "en": "Tokelau", "zh-hant": "托克勞" }, "countrycode": "TK" },
+  {
+    "id": 1886,
+    "name": { "en": "Trinidad and Tobago", "zh-hant": "千里達及托巴哥" },
+    "countrycode": "TT"
+  },
+  { "id": 1892, "name": { "en": "Uruguay", "zh-hant": "烏拉圭" }, "countrycode": "UY" },
+  {
+    "id": 1895,
+    "name": { "en": "Virgin Islands, U.S.", "zh-hant": "美屬維京群島" },
+    "countrycode": "VI"
+  },
+  { "id": 1902, "name": { "en": "Turkey", "zh-hant": "土耳其" }, "countrycode": "TR" },
+  { "id": 1903, "name": { "en": "Western Sahara", "zh-hant": "西撒哈拉" }, "countrycode": "EH" },
+  { "id": 1905, "name": { "en": "Uganda", "zh-hant": "烏干達" }, "countrycode": "UG" },
+  { "id": 1906, "name": { "en": "Vanuatu", "zh-hant": "瓦努阿圖" }, "countrycode": "VU" },
+  { "id": 1908, "name": { "en": "Vietnam", "zh-hant": "越南" }, "countrycode": "VN" },
+  {
+    "id": 1916,
+    "name": { "en": "Turks and Caicos Islands", "zh-hant": "特克斯和凱科斯群島" },
+    "countrycode": "TC"
+  },
+  { "id": 1918, "name": { "en": "United States", "zh-hant": "美國" }, "countrycode": "US" },
+  {
+    "id": 1920,
+    "name": { "en": "United Arab Emirates", "zh-hant": "阿拉伯聯合大公國" },
+    "countrycode": "AE"
+  },
+  { "id": 1929, "name": { "en": "Zambia", "zh-hant": "尚比亞" }, "countrycode": "ZM" }
+]

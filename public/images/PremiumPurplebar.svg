@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="676" height="127" viewBox="0 0 676 127" fill="none">
+  <g filter="url(#filter0_d_7140_9974)">
+    <path d="M4 8V107C4 119 12 127 24 127H652C664 127 672 119 672 107V9.7C672 9.7 626.5 46.9 338 46.9C49.5 46.9 4 8 4 8Z" fill="url(#paint0_linear_7140_9974)"/>
+    <path d="M6 11.6826C7.90764 12.7725 10.7596 14.2248 14.8495 15.9249C23.768 19.6321 38.599 24.5277 62.4108 29.4092C110.028 39.171 193.674 48.9 338 48.9C482.323 48.9 565.963 39.5964 613.572 30.2626C637.38 25.5951 652.207 20.9146 661.122 17.371C665.234 15.7365 668.094 14.3416 670 13.2979V107C670 112.545 668.16 117.011 665.086 120.086C662.011 123.16 657.546 125 652 125H24C18.4545 125 13.9887 123.16 10.9142 120.086C7.83977 117.011 6 112.546 6 107V11.6826Z" stroke="url(#paint1_linear_7140_9974)" stroke-width="4"/>
+  </g>
+  <defs>
+    <filter id="filter0_d_7140_9974" x="0" y="0" width="676" height="127" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" >
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <!-- <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /> //this caused crispEdges -->
+      <feOffset dy="-4"/>
+      <feGaussianBlur stdDeviation="2"/>s
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7140_9974"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7140_9974" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_7140_9974" x1="-43.7143" y1="95.1249" x2="767.805" y2="57.9803" gradientUnits="userSpaceOnUse">
+      <stop offset="0.060994" stop-color="#8BA9FC"/>
+      <stop offset="0.976152" stop-color="#4D5CFA"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_7140_9974" x1="338" y1="8" x2="338" y2="143.15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.08"/>
+      <stop offset="0.708333" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

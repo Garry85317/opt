@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "*.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/dashboard.tsx",
+    "components/NavbarItem.js",
+    "pages/index.tsx", // "pages/sign_in.tsx",
+    "pages/_app.tsx",
+    "pages/auth/signIn.tsx",
+    "pages/auth/signIn.tsx",
+    "pages/auth/forgotPassword.tsx",
+    "pages/users.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

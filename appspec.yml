@@ -1,0 +1,35 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/oam-web
+permissions:
+  - object: /home/ubuntu/oam-web
+    owner: ubuntu
+    group: ubuntu
+    mode: 755
+    type:
+      - directory
+  - object: /home/ubuntu/oam-web
+    owner: ubuntu
+    group: ubuntu
+    mode: 755
+    type:
+      - file
+
+hooks:
+  BeforeInstall:
+    - location: scripts/before-install.sh
+      timeout: 180
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/change-permission.sh
+      timeout: 180
+      runas: root
+    - location: scripts/after-install.sh
+      timeout: 180
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/application-start.sh
+      timeout: 3600
+      runas: ubuntu

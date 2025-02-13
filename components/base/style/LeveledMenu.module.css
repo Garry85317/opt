@@ -1,0 +1,32 @@
+.menu {
+  padding: 0.25rem;
+  font-size: 0.875rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  color: #000;
+  background-color: #fff;
+  min-width: 9rem;
+}
+
+.menuItem {
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0.625rem 0.75rem;
+}
+
+.menuItemHover {
+  composes: menuItem;
+  background-color: #f2f2f2;
+}
+
+.menuItemDisabled {
+  composes: menuItem;
+  cursor: default;
+  color: #444;
+  opacity: 0.4;
+}
+
+.menu:focus,
+.menuItem:focus {
+  outline: none;
+}
