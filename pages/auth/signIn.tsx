@@ -157,6 +157,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 function SignInPage() {
+  const DEFAULT_SIGN_PAGE= process.env.NEXT_PUBLIC_DEFAULT_SIGN_PAGE
   const router = useRouter();
   const { '3rd': third, email, type, state } = router.query;
   const { classes } = useStyles();
@@ -171,7 +172,14 @@ function SignInPage() {
   const [resendRegister] = useResendRegisterMutation();
   const token = useSelector(selectAccessToken);
   const { enterLoading, leaveLoading } = useCriticalLoadingAction();
-
+  console.log(
+    "%c SignInPage+init",
+    "color:#BB3D00;font-family:system-ui;font-size:2rem;font-weight:bold",
+    "token:",
+    token,
+    "router.query",
+    router.query
+  );
   googleSSOUrl.searchParams.set('type', type as string);
   googleSSOUrl.searchParams.set('state', state as string);
   microsoftSSOUrl.searchParams.set('type', type as string);
@@ -486,21 +494,31 @@ function SignInPage() {
             ) : (
               <></>
             )}
-            {!googleOnly && (
-              <Divider w="100%" label={t('Or')} labelPosition="center" my="lg" color="#7B7B7B" />
+            {DEFAULT_SIGN_PAGE !== '1' && (
+              <>
+                {!googleOnly && (
+                  <Divider
+                    w="100%"
+                    label={t('Or')}
+                    labelPosition="center"
+                    my="lg"
+                    color="#7B7B7B"
+                  />
+                )}
+                <Flex
+                  w="100%"
+                  justify="center"
+                  align="center"
+                  direction="column"
+                  sx={{ position: 'relative' }}
+                >
+                  {googleLogin}
+                  {google || googleOnly ? <></> : microsoftLogin}
+                  {google || googleOnly ? <></> : appleLogin}
+                </Flex>
+                <PolicyLinks mt={rem(12)} />
+              </>
             )}
-            <Flex
-              w="100%"
-              justify="center"
-              align="center"
-              direction="column"
-              sx={{ position: 'relative' }}
-            >
-              {googleLogin}
-              {google || googleOnly ? <></> : microsoftLogin}
-              {google || googleOnly ? <></> : appleLogin}
-            </Flex>
-            <PolicyLinks mt={rem(12)} />
           </Flex>
         </form>
       </div>

@@ -26,6 +26,9 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  compiler: {
+    removeConsole: true,
+  },
   headers() {
     return [
       {

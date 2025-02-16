@@ -40,6 +40,17 @@ export default function App(
   const { query, asPath } = router;
   const forbiddenPage = [] as string[]; // ['/devices', '/devices/devicesAdd', '/license', '/license/oms'];
 
+  console.log(
+    "%c pages+_app",
+    "color:#BB3D00;font-family:system-ui;font-size:2rem;font-weight:bold",
+    "router:",
+    router,
+    "props",
+    props,
+    "forbiddenPage:",
+    forbiddenPage
+  );
+
   useEffect(() => {
     if (forbiddenPage.includes(asPath as string)) {
       router.replace({ pathname: '/dashboard' });
