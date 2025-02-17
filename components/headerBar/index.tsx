@@ -20,7 +20,7 @@ import { useMediaQuery } from '@mantine/hooks';
 import { useSelector } from '../../store';
 import { modifyImageColor } from '../../utils/image';
 import { selectAccount } from '../../store/slices';
-import { BackIcon, OamIcon, OamWhiteIcon } from '../base/icon';
+import { BackIcon, OamIcon, OamWhiteIcon,OscIcon } from '../base/icon';
 import { Role } from '../../utils/role';
 import { useJWTContext } from '../../providers/jwtProvider';
 
@@ -284,7 +284,8 @@ const HeaderBar = ({ children, isShowGoback, backgroundColor, titleColor }: Head
           ) : (
             <>
               {backgroundColor !== '#01256B' ? (
-                <OamIcon />
+                <OscIcon />
+                // <OamIcon />
               ) : (
                 <OamWhiteIcon style={{ background: '#01256B' }} />
               )}

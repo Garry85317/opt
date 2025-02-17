@@ -368,9 +368,9 @@ const SignUp = () => {
         <ScrollArea className={classes.paper}>
           <form onSubmit={form.onSubmit(() => {})} className={classes.form}>
             <Text color="#415284" className={classes.formTitle}>
-              {t('Sign_up')}
+              {"Profile"}
             </Text>
-            <Flex className={classes.already}>
+            {/* <Flex className={classes.already}>
               <Text>{t('Already_have_an_account')}</Text>
               <Anchor
                 ml={rem(5)}
@@ -380,7 +380,7 @@ const SignUp = () => {
               >
                 <Text td="underline">{t('Sign_in')}</Text>
               </Anchor>
-            </Flex>
+            </Flex> */}
             <Paper className={classes.formGroup} radius="md">
               <Text className={classes.groupTitle}>{t('General')}</Text>
               <Grid
@@ -430,7 +430,7 @@ const SignUp = () => {
                   />
                 </Grid.Col>
               </Grid>
-              <Grid
+              {/* <Grid
                 className={classes.grid}
                 columns={width > 768 ? 2 : 1}
                 justify="center"
@@ -453,7 +453,7 @@ const SignUp = () => {
                   />
                 </Grid.Col>
                 <Grid.Col p={0} span={1} />
-              </Grid>
+              </Grid> */}
             </Paper>
             <Paper radius="md" className={classes.formGroup}>
               <Text className={classes.groupTitle}>{t('Organization')}</Text>
@@ -488,7 +488,7 @@ const SignUp = () => {
                 justify="center"
                 align="center"
               >
-                <Grid.Col className={classes.col} span={1}>
+                {/* <Grid.Col className={classes.col} span={1}>
                   <Select
                     required
                     customType={OAMSelectType.BORDER}
@@ -500,7 +500,7 @@ const SignUp = () => {
                     data={typeData}
                     {...form.getInputProps('organizationType')}
                   />
-                </Grid.Col>
+                </Grid.Col> */}
                 {form.values.organizationType === OrganizationType.Others ? (
                   <Grid.Col className={classes.col} span={1}>
                     <TextInput
@@ -517,7 +517,7 @@ const SignUp = () => {
                 <Grid.Col p={0} span={1} />
               </Grid>
             </Paper>
-            <Paper radius="md" className={classes.anchor}>
+            {/* <Paper radius="md" className={classes.anchor}>
               <Checkbox
                 className={classes.checkbox}
                 styles={() => ({
@@ -538,14 +538,14 @@ const SignUp = () => {
                 }
                 {...form.getInputProps('terms', { type: 'checkbox' })}
               />
-            </Paper>
-            <Group className={classes.reCaptcha} position="left">
+            </Paper> */}
+            {/* <Group className={classes.reCaptcha} position="left">
               <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY as string}
                 {...form.getInputProps('recaptcha')}
                 ref={reCaptchaRef}
               />
-            </Group>
+            </Group> */}
             <Group className={classes.buttonGroup} position="right">
               <Button
                 className={classes.button}
@@ -568,7 +568,7 @@ const SignUp = () => {
                 }}
               >
                 {/* TODO: Register hover style */}
-                {t('Register')}
+                {"Setup"}
               </Button>
             </Group>
           </form>

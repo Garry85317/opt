@@ -480,7 +480,7 @@ function SignInPage() {
         <form onSubmit={form.onSubmit(() => {})}>
           <Flex h="100%" align="center" direction="column">
             {googleOnly ? <></> : loginInputs}
-            {!googleOnly && isInvalidEmail(email) ? (
+            {/* {!googleOnly && isInvalidEmail(email) ? (
               <>
                 <Flex w="100%" justify="center" align="center" direction="row">
                   <Text mr="xs" fz="sm">
@@ -493,7 +493,7 @@ function SignInPage() {
               </>
             ) : (
               <></>
-            )}
+            )} */}
             {DEFAULT_SIGN_PAGE !== '1' && (
               <>
                 {!googleOnly && (
